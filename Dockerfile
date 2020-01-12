@@ -1,4 +1,4 @@
-FROM mariadb:10.4.10-bionic
+FROM mariadb:10.4.11-bionic
 
 COPY custom-entrypoint.sh /usr/local/bin/
 ENTRYPOINT ["custom-entrypoint.sh"]
